@@ -1,0 +1,10 @@
+
+RewriteEngine on
+#AddHandler application/x-httpd-php56 .php
+#Options -Indexes
+RewriteCond %{HTTP_HOST} ^staged\.fgstatus\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.staged\.fgstatus\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/staged\.fgstatus\.com\/public\/" [R=301,L]
+

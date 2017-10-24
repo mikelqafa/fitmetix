@@ -1,0 +1,6 @@
+[11-Sep-2017 05:26:57 America/New_York] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 12288 bytes) in /home/profzfqx/fitmetix.com/fitm/vendor/symfony/http-foundation/Request.php on line 1425
+[13-Sep-2017 20:09:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php71/usr/lib64/php/modules/mysqli.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[13-Sep-2017 20:09:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php71/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[25-Sep-2017 13:19:58 Etc/Greenwich] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4210688 bytes) in /home/profzfqx/fitmetix.com/fitm/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php on line 34
+[25-Sep-2017 13:19:58 Etc/Greenwich] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4214784 bytes) in /home/profzfqx/fitmetix.com/fitm/vendor/symfony/http-foundation/Response.php on line 371
+[25-Sep-2017 13:19:58 Etc/Greenwich] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 4194304 bytes) in Unknown on line 0

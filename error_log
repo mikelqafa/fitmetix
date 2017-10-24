@@ -1,0 +1,1 @@
+[14-Oct-2017 05:40:27 UTC] PHP Fatal error:  Class 'Sonlabs\AddressValid\AddressValidServiceProvider' not found in /home4/fgstatus/public_html/staged/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 208
